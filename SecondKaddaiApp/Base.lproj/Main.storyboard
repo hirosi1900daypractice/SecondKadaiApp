@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力してください" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayv-dG-wav">
-                                <rect key="frame" x="24" y="144" width="366" height="40"/>
+                                <rect key="frame" x="50" y="144" width="314" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -30,8 +30,8 @@
                                     <segue destination="ET2-11-r5t" kind="show" identifier="secondPage" id="PPY-Xt-qfe"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="名前を入力してください" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FNa-S7-q0J">
-                                <rect key="frame" x="24" y="310" width="372.5" height="46.5"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="名前を入力してください" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FNa-S7-q0J">
+                                <rect key="frame" x="50" y="284" width="314" height="46.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="31"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -47,8 +47,12 @@
                             <constraint firstItem="FNa-S7-q0J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pch-E6-5mw"/>
                             <constraint firstItem="FNa-S7-q0J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vn8-JI-x0d"/>
                             <constraint firstItem="ayv-dG-wav" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dJA-Dg-cjc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FNa-S7-q0J" secondAttribute="trailing" constant="50" id="dUH-OH-Qqb"/>
                             <constraint firstItem="ayv-dG-wav" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="eGT-kP-LQc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ayv-dG-wav" secondAttribute="trailing" constant="50" id="eSQ-PF-858"/>
                             <constraint firstItem="FNa-S7-q0J" firstAttribute="top" secondItem="ayv-dG-wav" secondAttribute="bottom" constant="100" id="hL8-v9-vhN"/>
+                            <constraint firstItem="FNa-S7-q0J" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="phs-yu-SJo"/>
+                            <constraint firstItem="ayv-dG-wav" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="xpS-KP-0tT"/>
                         </constraints>
                     </view>
                     <connections>
